@@ -34,9 +34,9 @@
 # M Files
 *.m
 
-# zip files
-*.zip
-*.tar.gz
+#videos
+*.mpeg
+*.avi
 
 # VS Project Files
 *.vcxproj
