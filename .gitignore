@@ -1,0 +1,44 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#Directory
+/Debug/
+/Release/
+
+# M Files
+*.m
+
+# zip files
+*.zip
+*.tar.gz
+
+# VS Project Files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
