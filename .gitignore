@@ -37,6 +37,7 @@
 #videos
 *.mpeg
 *.avi
+*.mp4
 
 # VS Project Files
 *.vcxproj

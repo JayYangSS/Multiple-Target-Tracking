@@ -35,7 +35,7 @@ int main(int ac, char** av)
 {
 #if ExampleNum==1
 	Scalar Colors[]={Scalar(255,0,0),Scalar(0,255,0),Scalar(0,0,255),Scalar(255,255,0),Scalar(0,255,255),Scalar(255,0,255),Scalar(255,127,255),Scalar(127,0,255),Scalar(127,0,127)};
-	VideoCapture capture("..\\..\\data\\TrackingBugs.mp4");
+	VideoCapture capture("..\\data\\TrackingBugs.mp4");
 	//VideoCapture capture("..\\..\\data\\atrium.avi");
 	if(!capture.isOpened())
 	{
@@ -57,7 +57,7 @@ int main(int ac, char** av)
 		capture >> frame;
 		if(frame.empty())
 		{
-			capture.set(CAP_PROP_POS_FRAMES,0);
+			capture.set(CV_CAP_PROP_POS_FRAMES,0);
 			continue;
 		}
 		cv::cvtColor(frame,gray,cv::COLOR_BGR2GRAY);
